@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color:whitesmoke;
+}
+
+header {    
+    background-color: #415e9b;
+    height: 82px;
+    border-bottom: 1px solid #133783;
+}
+
+.header-block {
+    width: 992px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo {
+    width: 50%;
+    float: left;
+}
+.facebook-login {
+    width: 50%;
+    float: left;
+}
+
+.header-block label {
+    color: white;
+
+}
+
+
+.email {
+    float: left;
+}
+
+.email label{
+    padding-bottom: 10px;
+}
+.email input{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+    margin-right: 5px;
+}
+
+
+#password {
+    
+    margin-left: 15px;
+}
+
+    
+
+#pass{
+    border: 1px solid #1d2a5b;
+    height: 20px;
+    width: 150px;
+
+}
+
+.password a {
+    color: #8fb1d8;
+}
+.password label {
+    padding-bottom: 10px
+}
+
+
+.login-button {
+ position: absolute;
+ right:23%;
+ top:6%;
+
+
+}
+
+.login-button input[type="submit"] {
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: white;
+    height: 20px;
+    width: 50px;
+
+}
+a{
+    position: absolute;
+    top:9%;
+    right: 28%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup{
+    position: absolute;
+    right:10%;
+    top: 20%;
+    font-size: 20px;
+
+}
+
+img{
+    float: left;
+    margin-right: 0;
+    
+}
+
+.details{
+    margin:10px;
+}
+
+#sn, #fn, #mob ,#dob,#pass1 {
+    margin: 10px;
+    height: 30px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#mob, #pass1{
+    width: 370px;
+}
+
+qst{
+    color: #133783;
+}
+
+.bg{
+    width:"550px";
+}
+
+.signupbtn{
+    padding: 10px 70px;
+    background: green;
+    color:white;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 20px;
+}
